@@ -1,0 +1,106 @@
+.panel {
+  background: var(--color-surface);
+  border: 1px solid var(--hairline-16);
+  border-radius: var(--radius-card);
+  padding: clamp(22px, 3.5vw, 40px);
+  box-shadow: var(--shadow-card);
+}
+
+.label {
+  display: block;
+  font-family: var(--font-hand);
+  font-weight: 700;
+  font-size: clamp(24px, 3.5vw, 34px);
+  color: var(--color-text-primary);
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  margin: 0 0 18px;
+  color: var(--color-text-secondary);
+  font-size: 15px;
+}
+
+.inputBlock {
+  margin-bottom: 20px;
+}
+
+.tagArea {
+  min-height: 8px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 16px;
+  padding: 4px 0 8px;
+}
+
+.empty {
+  margin: 2px 0 6px;
+  color: var(--color-text-secondary);
+  font-size: 14px;
+  font-style: italic;
+}
+
+.suggestions {
+  margin-top: 22px;
+  border-top: 1px solid var(--hairline-14);
+  padding-top: 20px;
+}
+
+.suggestionsTitle {
+  font-family: var(--font-hand);
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.06em;
+  color: var(--color-text-secondary);
+  margin-bottom: 12px;
+}
+
+.suggestionList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 12px;
+}
+
+.cookBlock {
+  margin-top: 30px;
+}
+
+.cook {
+  width: 100%;
+  background: var(--color-accent-cta);
+  color: var(--color-cta-text);
+  border: none;
+  border-radius: var(--radius-cta);
+  font-family: var(--font-hand);
+  font-weight: 700;
+  font-size: clamp(24px, 3.5vw, 32px);
+  letter-spacing: 0.02em;
+  padding: 18px 24px;
+  cursor: pointer;
+  box-shadow: var(--shadow-cta);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.cook:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-cta-hover);
+}
+
+.cook:active {
+  transform: translateY(0);
+}
+
+.cook:focus-visible {
+  outline: 3px solid var(--color-accent-warm);
+  outline-offset: 3px;
+}
+
+.hint {
+  margin: 12px 0 0;
+  text-align: center;
+  color: var(--color-accent-warm);
+  font-size: 15px;
+}

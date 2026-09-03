@@ -1,0 +1,49 @@
+:root {
+  /* Colours */
+  --color-bg: #2b3b2f;
+  --color-surface: #38493c;
+  --color-accent-warm: #e8b33d;
+  --color-accent-cta: #d6503c;
+  --color-text-primary: #f2efe6;
+  --color-text-secondary: #8fa290;
+  --color-cta-text: #f2efe6;
+  --color-tag-text: #2b3b2f;
+
+  /* Hairlines & translucent fills derived from the chalky primary tone */
+  --hairline-14: rgba(242, 239, 230, 0.14);
+  --hairline-16: rgba(242, 239, 230, 0.16);
+  --hairline-20: rgba(242, 239, 230, 0.2);
+  --hairline-22: rgba(242, 239, 230, 0.22);
+  --hairline-25: rgba(242, 239, 230, 0.25);
+  --hairline-30: rgba(242, 239, 230, 0.3);
+  --hairline-35: rgba(242, 239, 230, 0.35);
+  --hairline-40: rgba(242, 239, 230, 0.4);
+  --hairline-55: rgba(242, 239, 230, 0.55);
+  --hairline-70: rgba(242, 239, 230, 0.7);
+
+  --inset-16: rgba(0, 0, 0, 0.16);
+  --inset-24: rgba(0, 0, 0, 0.24);
+  --overlay-scrim: rgba(8, 14, 9, 0.72);
+
+  /* Typography */
+  --font-display: 'Caveat', cursive;
+  --font-hand: 'Kalam', cursive;
+  --font-body: 'IBM Plex Sans', system-ui, sans-serif;
+
+  /* Radii */
+  --radius-card: 14px;
+  --radius-modal: 16px;
+  --radius-nutrition: 6px;
+  --radius-cta: 12px;
+  --radius-input: 8px 8px 0 0;
+
+  /* Shadows */
+  --shadow-card: 0 22px 50px -30px rgba(0, 0, 0, 0.7);
+  --shadow-cta: 0 14px 30px -14px rgba(214, 80, 60, 0.9);
+  --shadow-cta-hover: 0 20px 34px -14px rgba(214, 80, 60, 0.95);
+  --shadow-tag: 3px 5px 0 rgba(0, 0, 0, 0.28);
+  --shadow-modal: 0 40px 90px -30px rgba(0, 0, 0, 0.85);
+
+  /* Layout */
+  --container-max: 1140px;
+}

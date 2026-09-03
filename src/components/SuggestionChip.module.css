@@ -1,0 +1,22 @@
+.chip {
+  background: transparent;
+  color: var(--color-text-primary);
+  border: 1.5px dashed var(--hairline-40);
+  border-radius: 20px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: all 0.14s ease;
+}
+
+.chip:hover {
+  border-color: var(--color-accent-warm);
+  color: var(--color-accent-warm);
+  border-style: solid;
+}
+
+.chip:focus-visible {
+  outline: 2px solid var(--color-accent-warm);
+  outline-offset: 2px;
+}

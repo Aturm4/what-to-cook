@@ -1,0 +1,101 @@
+.label {
+  border: 2px solid var(--hairline-55);
+  border-radius: var(--radius-nutrition);
+  background: var(--inset-16);
+  padding: 12px 14px;
+}
+
+.label.modal {
+  border-radius: 8px;
+  padding: 16px 18px;
+  max-width: 340px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.title {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 13px;
+  color: var(--color-text-primary);
+}
+
+.modal .title {
+  font-size: 14px;
+}
+
+.per {
+  font-size: 11px;
+  color: var(--color-text-secondary);
+}
+
+.modal .per {
+  font-size: 12px;
+}
+
+.rule {
+  height: 4px;
+  background: var(--color-text-primary);
+  opacity: 0.7;
+  margin: 8px 0;
+}
+
+.modal .rule {
+  height: 5px;
+  margin: 9px 0;
+}
+
+.calories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.caloriesLabel {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--color-text-primary);
+}
+
+.modal .caloriesLabel {
+  font-size: 17px;
+}
+
+.caloriesValue {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 0.8;
+  color: var(--color-accent-warm);
+}
+
+.modal .caloriesValue {
+  font-size: 48px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 3px 0;
+  color: var(--color-text-primary);
+}
+
+.modal .row {
+  font-size: 15px;
+  padding: 4px 0;
+}
+
+.row .value {
+  font-weight: 700;
+}
+
+.divider {
+  height: 1px;
+  background: var(--hairline-25);
+}
