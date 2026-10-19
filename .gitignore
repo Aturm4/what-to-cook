@@ -28,3 +28,17 @@ _design_src
 # Local design archive and TypeScript build cache
 *.zip
 *.tsbuildinfo
+
+# Local secrets: commit only sanitized example files.
+.env
+.env.*
+!.env.example
+!.env.*.example
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
